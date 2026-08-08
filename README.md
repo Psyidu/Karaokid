@@ -1,8 +1,8 @@
-# Kareokid
+# Karaokid
 
   **Sing along with lyrics right in your Rokid Glasses!**
 
-  Kareokid is an Android karaoke system for Rokid Glasses. Search for a song on your phone, download and process it locally, remove the vocals, and display synchronized lyrics inside your glasses.
+  Karaokid is an Android karaoke system for Rokid Glasses. Search for a song on your phone, download and process it locally, remove the vocals, and display synchronized lyrics inside your glasses.
 
   The phone handles song discovery, audio processing, playback, and synchronization. The glasses display the lyrics on a smooth, head-tracked window.
 
@@ -46,13 +46,13 @@
   Install:
 
   ```text
-  Kareokid-Android.apk
+  Karaokid-Android.apk
 
   Install the app (may need to enable 'Install from Unknown Sources' or disable Google Play Protect temporarily.
 
   Open the app once and grant the requested Bluetooth and notification permissions. App may need to be restarted.
 
-  The notification allows Kareokid’s foreground service to maintain the glasses connection while the main phone interface is closed.
+  The notification allows Karaokid’s foreground service to maintain the glasses connection while the main phone interface is closed.
 
   ### 2. Export the glasses app
 
@@ -62,7 +62,7 @@
 
   Choose a location on your phone. The app will save:
 
-  Kareokid-Glasses.apk
+  Karaokid-Glasses.apk
 
   Transfer this APK to the glasses and install it manually via the Hi Rokid App or through other means.
 
@@ -72,11 +72,11 @@
 
   Ensure glasses and phone are already paired via Bluetooth.
 
-  ### 4. Start Kareokid
+  ### 4. Start Karaokid
 
-  1. Open Kareokid on the phone at least once.
-  2. Open Kareokid on the glasses.
-  3. The glasses will search their paired devices for a phone running Kareokid.
+  1. Open Karaokid on the phone at least once.
+  2. Open Karaokid on the glasses.
+  3. The glasses will search their paired devices for a phone running Karaokid.
   4. After the process completes, the glasses should display Phone connected.
 
   The glasses automatically retry the connection if the phone is temporarily unavailable.
@@ -148,11 +148,11 @@
   - Bluetooth must be enabled on both devices.
   - The phone and glasses must already be paired.
   - Bluetooth permissions must be granted to both apps.
-  - Compatible versions of Kareokid must be installed.
+  - Compatible versions of Karaokid must be installed.
   - The phone service must have been started at least once.
 
  
-  If multiple phones are paired with the glasses, the glasses try paired phone-class devices until they find one running the compatible Kareokid service.
+  If multiple phones are paired with the glasses, the glasses try paired phone-class devices until they find one running the compatible Karaokid service.
 
   ## Troubleshooting
 
@@ -161,7 +161,7 @@
   - Confirm the devices are paired in Android Bluetooth settings.
   - Open the phone app once.
   - Confirm Bluetooth permissions are granted.
-  - Confirm the Kareokid foreground-service notification is present.
+  - Confirm the Karaokid foreground-service notification is present.
   - Restart the glasses app.
   - Toggle Bluetooth off and on.
   - Remove and pair the devices again if necessary.
@@ -190,4 +190,4 @@
   - Enable installation from unknown sources.
   - Export a fresh copy using the phone app.
   - Remove an older incompatible installation if Android reports a signature conflict.
-  - Confirm that you are installing Kareokid-Glasses.apk, not the phone APK.
+  - Confirm that you are installing Karaokid-Glasses.apk, not the phone APK.
