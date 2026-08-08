@@ -1,4 +1,4 @@
-# Karaokid
+# Karaokid - Karaoke app for Rokid Display Glasses!
 
   **Sing along with lyrics right in your Rokid Glasses!**
 
